@@ -36,6 +36,7 @@ h1 {
 
 h1 .name {
   display: block;
+  color: #ffffff;
   margin: 0 0 25px;
   font: 0.35714em / 1 Nothing You Could Do, cursive;
   letter-spacing: 2px;
@@ -2570,6 +2571,7 @@ form .message {
 .animated-letters {
   display: block;
   position: relative;
+  columns: #fff;
 }
 
 .animated-letters b {
