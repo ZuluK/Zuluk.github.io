@@ -81,6 +81,7 @@ address {
   font-style: normal;
   line-height: 1.5;
   opacity: 0.7;
+  font-size: 16px; /* Updated font size */
 }
 
 p {
