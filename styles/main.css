@@ -220,8 +220,6 @@ form p {
 /* About Section */
 .about-content {
   display: flex;
-  align-items: center; /* Vertically align image and text */
-  justify-content: space-between; /* Space between image and text */
   flex-wrap: wrap; /* Ensure responsiveness */
 }
 
@@ -231,7 +229,7 @@ form p {
 
 .profile-image {
   width: 250px; /* Ensure the image fits within its container */
-  border-radius: 50%; /* Make the image circular */
+  border-radius: 100px; /* Make the image circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
