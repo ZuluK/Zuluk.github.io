@@ -220,6 +220,8 @@ form p {
 /* About Section */
 /* .about-content {
   display: flex;
+  align-items: center; /* Vertically align image and text */
+  justify-content: space-between; /* Space between image and text */
   flex-wrap: wrap; /* Ensure responsiveness */
 } */
 
@@ -2114,51 +2116,6 @@ span.work-item-thumb.now {
 .contacts a {
   text-decoration: none;
   color: currentColor;
-}
-
-/* Contact Section */
-.contacts {
-  display: flex;
-  justify-content: center; /* Center the items horizontally */
-  align-items: center; /* Align items vertically */
-  flex-wrap: wrap; /* Ensure responsiveness */
-  gap: 20px; /* Add spacing between items */
-}
-
-.contacts-item {
-  text-align: center; /* Center text and icons */
-}
-
-.contacts-item .icon-b {
-  font-size: 2em;
-  color: #e74c3c; /* Icon color */
-  margin-bottom: 10px; /* Space between icon and text */
-}
-
-.contacts-item p, .contacts-item a {
-  font-size: 1em;
-  color: #fff; /* Text color */
-  text-decoration: none;
-}
-
-.contacts-item a:hover {
-  color: #00bcd4; /* Hover effect for links */
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .contacts {
-    flex-direction: column; /* Stack items vertically on smaller screens */
-    gap: 15px; /* Adjust spacing */
-  }
-
-  .contacts-item .icon-b {
-    font-size: 1.5em; /* Adjust icon size for smaller screens */
-  }
-
-  .contacts-item p, .contacts-item a {
-    font-size: 0.9em; /* Adjust text size for smaller screens */
-  }
 }
 
 .instafeed {
