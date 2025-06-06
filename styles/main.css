@@ -164,12 +164,11 @@ form p {
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%; /* Ensures consistent height */
 }
 
 .project-image {
@@ -179,7 +178,6 @@ form p {
 
 .project-content {
   padding: 20px;
-  text-align: center;
 }
 
 .project-content h3 {
@@ -206,6 +204,19 @@ form p {
 .project-content .btn:hover {
   background-color: #00bcd4;
   color: #fff;
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Centers the last card */
+  flex-wrap: wrap; /* Ensures cards wrap properly */
+}
+
+.col {
+  flex: 0 0 30%; /* Ensures all cards are the same width */
+  max-width: 30%;
+  box-sizing: border-box;
+  padding: 15px;
 }
 
 input[type="text"],
