@@ -2091,6 +2091,47 @@ span.work-item-thumb.now {
   vertical-align: middle;
 }
 
+#contact {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+.contact-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.contact-card {
+  flex: 1 1 45%;
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.contact-card i {
+  font-size: 1.5rem;
+  color: #0077b5;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+.contact-form button {
+  background: #0077b5;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 .contacts {
   padding: 30px 0;
   font-size: 1em;
