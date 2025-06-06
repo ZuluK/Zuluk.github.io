@@ -230,8 +230,7 @@ form p {
 }
 
 .profile-image {
-  width: 100%; /* Ensure the image fits within its container */
-  max-width: 250px; /* Set a maximum width for the image */
+  width: 250px; /* Ensure the image fits within its container */
   border-radius: 50%; /* Make the image circular */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
