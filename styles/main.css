@@ -157,25 +157,26 @@ form p {
   opacity: 1;
 }
 
+/* Ensure consistent card borders */
 .project-card {
   background: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; /* Fix disappearing borders */
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
-  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%; /* Ensures consistent height */
+  height: 100%; /* Ensure consistent height */
 }
 
+/* Ensure images fit properly */
 .project-image {
   width: 100%;
   height: auto;
 }
 
+/* Style project content */
 .project-content {
   padding: 20px;
 }
@@ -206,18 +207,20 @@ form p {
   color: #fff;
 }
 
+/* Responsive layout for cards */
 .row {
   display: flex;
-  justify-content: center; /* Centers the last card */
-  flex-wrap: wrap; /* Ensures cards wrap properly */
+  justify-content: center; /* Center cards */
+  flex-wrap: wrap; /* Ensure cards wrap properly */
 }
 
 .col {
-  flex: 0 0 30%; /* Ensures all cards are the same width */
+  flex: 0 0 30%; /* Ensure all cards are the same width */
   max-width: 30%;
   box-sizing: border-box;
   padding: 15px;
 }
+
 
 input[type="text"],
 input[type="password"],
@@ -2723,6 +2726,21 @@ form .message {
 
 .contact_btn {
   font-family: 'Roboto', sans-serif;
+}
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    max-width: 100%;
+  }
+
+  .project-content h3 {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .project-content p {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
 }
 
 @media (max-width: 1200px) {
