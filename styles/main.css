@@ -2101,6 +2101,7 @@ span.work-item-thumb.now {
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
+  padding-top: 34px
 }
 .contact-card {
   flex: 1 1 45%;
