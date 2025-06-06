@@ -2095,22 +2095,26 @@ span.work-item-thumb.now {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
+  h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
 }
 .contact-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-bottom: 2rem;
-  padding-top: 34px
+  padding-top: 40px;
 }
 .contact-card {
   flex: 1 1 45%;
   background: #f9f9f9;
   padding: 1rem;
   border-radius: 8px;
-  display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-align: center;
 }
 .contact-card i {
   font-size: 1.5rem;
