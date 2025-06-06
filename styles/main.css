@@ -164,6 +164,8 @@ form p {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -221,6 +223,21 @@ form p {
   padding: 15px;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .col {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    max-width: 100%;
+  }
+
+  .project-content h3 {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .project-content p {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+}
 
 input[type="text"],
 input[type="password"],
@@ -2726,21 +2743,6 @@ form .message {
 
 .contact_btn {
   font-family: 'Roboto', sans-serif;
-}
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .col {
-    flex: 0 0 100%; /* Full width on smaller screens */
-    max-width: 100%;
-  }
-
-  .project-content h3 {
-    font-size: 1.2em; /* Adjust font size for smaller screens */
-  }
-
-  .project-content p {
-    font-size: 0.9em; /* Adjust font size for smaller screens */
-  }
 }
 
 @media (max-width: 1200px) {
