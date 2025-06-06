@@ -157,28 +157,22 @@ form p {
   opacity: 1;
 }
 
-/* Ensure consistent card borders */
 .project-card {
   background: #fff;
-  border: 1px solid #ddd; /* Fix disappearing borders */
+  border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%; /* Ensure consistent height */
 }
 
-/* Ensure images fit properly */
 .project-image {
-  width: 100%;
-  height: auto;
+  width: 100%; /* Make the image span the full width of the container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure proper alignment */
 }
 
-/* Style project content */
 .project-content {
   padding: 20px;
 }
